@@ -5,13 +5,11 @@ import Cabecalho from './components/Cabecalho/index.jsx';
 
 function App() {
   const [listaProdutos, setListaProdutos] = useState([]);
-  const [ordenador, setOrdenador] = useState([]);
 
-  console.log(listaProdutos);
   return (
     <>
       <Cabecalho />
-      <div className="container">
+      <div className="container w-70">
         <Formulario
           aoCadastrar={(produto) =>
             setListaProdutos([...listaProdutos, produto])

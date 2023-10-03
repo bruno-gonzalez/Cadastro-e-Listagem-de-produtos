@@ -76,7 +76,6 @@ const Formulario = ({ aoCadastrar }) => {
         <label htmlFor="nao">
           Não{' '}
           <input
-            checked
             type="radio"
             id="nao"
             value="nao"

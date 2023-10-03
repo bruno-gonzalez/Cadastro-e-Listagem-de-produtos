@@ -3,7 +3,7 @@ const ProdutosCadastrados = ({ nome, valor, disponivel }) => {
     <tr>
       <td> {nome}</td>
       <td> R${valor} </td>
-      <td> {disponivel === true ? 'Sim' : 'Não'}</td>
+      <td> {disponivel ? 'Sim' : 'Não'}</td>
     </tr>
   );
 };
